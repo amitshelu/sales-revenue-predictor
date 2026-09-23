@@ -1,4 +1,13 @@
 # AI Student Performance Predictor
+Final project for the Building AI course
+
+## Summary
+
+AI Sales & Revenue Predictor is a lightweight, browser-based tool that turns a small business's raw sales CSV into a clear revenue forecast. A user uploads their own sales export, and the app aggregates it into monthly revenue, fits a trend model, forecasts the next few months overall and by product/region, and flags any unusually large or small orders worth a second look — all without needing a data team or any special software beyond a web browser.
+
+## Background
+
+Small business owners and shop managers often have a good gut feel for "business is up" or "business is slow," but rarely have an easy way to turn their raw sales exports into a forward-looking number they can plan around. Spreadsheet-based trend lines are fiddly to maintain and don't scale well across multiple products or regions, and full BI/forecasting platforms are usually overkill — expensive, slow to set up, and built for teams with a dedicated analyst rather than a solo owner who just wants next month's revenue estimate after closing out this month's books. This project was built as a student project to explore how far a simple, well-scoped combination of classical ML techniques (moving averages, linear regression, isolation forest) can go in giving a non-technical user a personal, trustworthy forecast from nothing but their own transaction history — used occasionally, right after exporting a statement, rather than as an always-on system.
 
 ## Data sources and AI methods
 
